@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jinliyu.codingchallenges4.MainActivity">
+
+    <Button
+        android:id="@+id/ButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Add Item" />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ButtonAdd"
+        android:layout_weight="1"></ListView>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ButtonAdd"
+        android:layout_alignBottom="@+id/ButtonAdd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ListView"
+        android:layout_toEndOf="@+id/ButtonAdd"
+        android:layout_toRightOf="@+id/ButtonAdd"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search Map" />
+
+
+
+</RelativeLayout>

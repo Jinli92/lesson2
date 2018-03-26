@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jinliyu.codingchallenges4.SecondActivity">
+
+
+    <Button
+        android:id="@+id/buttonItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="44dp"
+        android:text="Cheese" />
+
+    <Button
+        android:id="@+id/buttonItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonItem"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_toEndOf="@+id/buttonItem"
+        android:layout_toRightOf="@+id/buttonItem"
+        android:text="Rice" />
+
+    <Button
+        android:id="@+id/buttonItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonItem"
+        android:layout_alignStart="@+id/buttonItem"
+        android:layout_below="@+id/buttonItem"
+        android:layout_marginTop="48dp"
+        android:text="Apple" />
+
+    <Button
+        android:id="@+id/buttonItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonItem2"
+        android:layout_alignStart="@+id/buttonItem2"
+        android:layout_alignTop="@+id/buttonItem3"
+        android:text="cake" />
+
+    <Button
+        android:id="@+id/buttonItem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonItem3"
+        android:layout_alignStart="@+id/buttonItem3"
+        android:layout_centerVertical="true"
+        android:text="Orange" />
+
+    <Button
+        android:id="@+id/buttonItem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonItem4"
+        android:layout_alignStart="@+id/buttonItem4"
+        android:layout_alignTop="@+id/buttonItem5"
+        android:text="tomato" />
+
+    <Button
+        android:id="@+id/buttonItem7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonItem5"
+        android:layout_alignRight="@+id/buttonItem5"
+        android:layout_below="@+id/buttonItem5"
+        android:layout_marginTop="71dp"
+        android:text="strawberry" />
+
+    <Button
+        android:id="@+id/buttonItem8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonItem6"
+        android:layout_alignStart="@+id/buttonItem6"
+        android:layout_alignTop="@+id/buttonItem7"
+        android:text="hamburger" />
+
+
+</RelativeLayout>
